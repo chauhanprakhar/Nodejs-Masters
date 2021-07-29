@@ -11,7 +11,7 @@ const PORT = 5000
 app.use(express.json())
 
 // connection to mongodb
-mongoose.connect("mongodb+srv://prakhar:201951116@cluster0.s1wkv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",{
+mongoose.connect("",{
     useNewUrlParser:true,
     useUnifiedTopology: true
 
